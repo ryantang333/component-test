@@ -1,0 +1,17 @@
+{
+  "name": "@test/babel-preset",
+  "description": "Automatically load the css for the @test design system.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ryantang333/component-test",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "!*.test.*",
+    "!__snapshots__",
+    "!__tests__"
+  ],
+  "dependencies": {
+    "@design-systems/babel-plugin-include-styles": "4.13.1"
+  }
+}
