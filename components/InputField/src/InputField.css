@@ -1,0 +1,12 @@
+.input-field {
+  height: 1.4375rem;
+  padding: 1.25rem 0.875rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: inherit;
+}
+
+.input-field:focus {
+  outline: none;
+}

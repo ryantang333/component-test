@@ -1,0 +1,31 @@
+.text-field {
+  border: 1px solid #000;
+  border-radius: 4px;
+  position: relative;
+}
+
+.text-field.disabled {
+  border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.helper-text {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.1875rem;
+  margin-right: 0.875rem;
+  margin-bottom: 0;
+  margin-left: 0.875rem;
+}
+
+.text-field.error {
+  border: 2px groove #d32f2f;
+}
+
+.text-field label.error,
+.helper-text.error {
+  /* would use sass variables or something similar for these colors */
+  color: #d32f2f;
+}

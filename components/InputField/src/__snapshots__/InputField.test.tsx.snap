@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField It matches the snapshot 1`] = `
+<div>
+  <input
+    class="inputField"
+    type="text"
+    value=""
+  />
+</div>
+`;
